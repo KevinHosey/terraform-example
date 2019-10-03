@@ -1,7 +1,7 @@
 resource "digitalocean_droplet" "web2" {
-  image = "ubuntu-16-04-x64"
+  image = "ubuntu-18-04-x64"
   name = "web2"
-  region = "nyc3"
+  region = "fra1"
   size = "1gb"
   private_networking = true
   ssh_keys = [
